@@ -1,4 +1,4 @@
-// Coding Challenge #1
+// Code Challenge #1
 let massMark, massJohn;
 massMark = 78;
 massJohn = 92;
@@ -14,3 +14,10 @@ const markHigherBMI = bmiMark > bmiJohn;
 
 console.log (bmiMark, bmiJohn)
 console.log (markHigherBMI)
+
+// Code Challenges #2
+if (markHigherBMI) {
+  console.log (`Mark's BMI (${bmiMark}) is higher than John's (${bmiJohn})!`);
+} else {
+  console.log (`John's BMI (${bmiJohn}) is higher than Mark's (${bmiMark})`);
+}
